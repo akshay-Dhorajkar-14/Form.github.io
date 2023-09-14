@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   
+</head>
+<body bgcolor=" yellow">
+   <center>
+    <h1><span style="background-color: black; color: aqua;">Login page</span></h1>
+    <label for="Fname">Full Name :</label>
+    <input type="text" name="FName" id="FName" placeholder="Type Here" required><br><br>
+    
+    <label for="Gender">Gender : </label>
+    <label for="Male">       Male:</label>
+    <input type="radio" name="Gender" id="Male">
+    <label for="Female">Female:</label>
+    <input type="radio" name="Gender" id="Female"><br><br>
+
+    <label for="Age">Age :</label>
+    <input type="number" name="Age" id="Age" step="3"><br><br>
+
+    <label for="email">Email :</label>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <label for="Address">Address :</label>
+    <textarea name="Address" id="Address" cols="25" rows="5"></textarea><br><br>
+
+    <label for="Pnumber">Phone number :</label>
+    <input type="tel" name="Pnumber" id="Pnumber" required maxlength="10" minlength="10"><br><br>
+
+    <label for="ayear">Academic Year :</label>
+   <select>
+<option value="1 Year">1 Year</option>
+<option value="2 Year">2 Year</option>
+<option value="3 Year">3 Year</option>
+<option value="4 Year">4 Year</option>
+</select><br><br>
+
+<label for="Branch">Branch :</label>
+<input list="Branch" name="Branch">
+<datalist id="Branch">
+    <option value="Mechanical Engineering">
+    <option value="Chemical Engineering">
+    <option value="Computer Engineering">
+    <option value="Electrical Engineering">
+    <option value="Civil Engineering">
+    <option value="Aerospace Engineering">
+    <option value="Biomedical Engineering">
+</datalist><br><br>
+<input type="Submit" value="SEND">
+<input type="Reset" value="RESET">
+   </center>
+</body>
+</html>
